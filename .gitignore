@@ -1,20 +1,48 @@
-vendor/
-node_modules/
-npm-debug.log
+# global
+# =========================
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+!.gitignore
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-storage/*.key
-.env.*.php
-.env.php
-.env
-Homestead.yaml
-Homestead.json
+# OSX
+# =========================
 
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
-.rocketeer/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear on external disk
+# =========================
+
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+# =========================
+
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+# =========================
+
+Desktop.ini
+
+# Recycle Bin used on file shares
+# =========================
+
+$RECYCLE.BIN/
+
+# 编辑器
+# =========================
+
+.vscode
+.idea
+*.sw*
+*.un~
+
+# php
+# =========================
+
+/vendor
+/composer.lock
+/.php_cs.cache

@@ -1,0 +1,28 @@
+{
+    "name": "moorper/serverchan",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuzhaowei",
+            "email": "liuzhaowei55@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moorper\\ServerChan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moorper\\ServerChan\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
